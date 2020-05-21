@@ -11,6 +11,8 @@ body {
     font-family: Arial;
     height: 100vh;
     font-size: 12px;
+    text-align: center;
+    color: whitesmoke;
   }
 
   /* se a tela tiver menos de 400px vai carregar estes estilos */
@@ -49,6 +51,9 @@ header {
   .menu li {
    list-style: none; 
   }
+  a {
+    text-align-last: center;
+  }
   
   .menu a{
    display: block;
@@ -56,7 +61,7 @@ header {
   }
 
   a {
-    color: crimson;
+    color: goldenrod;
     text-decoration: none;
   }
   
